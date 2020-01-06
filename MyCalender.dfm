@@ -30,7 +30,7 @@ object CalendarForm: TCalendarForm
       Color = clWhite
       ParentBackground = False
       TabOrder = 0
-      object Label42: TLabel
+      object Today: TLabel
         Left = 16
         Top = 8
         Width = 53
@@ -236,216 +236,6 @@ object CalendarForm: TCalendarForm
           Value = 14.070709798324280000
         end>
       ControlCollection = <
-        item
-          Column = 0
-          Control = st1
-          Row = 0
-        end
-        item
-          Column = 1
-          Control = st2
-          Row = 0
-        end
-        item
-          Column = 2
-          Control = st3
-          Row = 0
-        end
-        item
-          Column = 3
-          Control = st4
-          Row = 0
-        end
-        item
-          Column = 4
-          Control = st5
-          Row = 0
-        end
-        item
-          Column = 5
-          Control = st6
-          Row = 0
-        end
-        item
-          Column = 6
-          Control = st7
-          Row = 0
-        end
-        item
-          Column = 0
-          Control = st8
-          Row = 2
-        end
-        item
-          Column = 1
-          Control = st9
-          Row = 2
-        end
-        item
-          Column = 2
-          Control = st10
-          Row = 2
-        end
-        item
-          Column = 3
-          Control = st11
-          Row = 2
-        end
-        item
-          Column = 4
-          Control = st12
-          Row = 2
-        end
-        item
-          Column = 5
-          Control = st13
-          Row = 2
-        end
-        item
-          Column = 6
-          Control = st14
-          Row = 2
-        end
-        item
-          Column = 0
-          Control = st15
-          Row = 4
-        end
-        item
-          Column = 1
-          Control = st16
-          Row = 4
-        end
-        item
-          Column = 2
-          Control = st17
-          Row = 4
-        end
-        item
-          Column = 3
-          Control = st18
-          Row = 4
-        end
-        item
-          Column = 4
-          Control = st19
-          Row = 4
-        end
-        item
-          Column = 5
-          Control = st20
-          Row = 4
-        end
-        item
-          Column = 6
-          Control = st21
-          Row = 4
-        end
-        item
-          Column = 0
-          Control = st22
-          Row = 6
-        end
-        item
-          Column = 1
-          Control = st23
-          Row = 6
-        end
-        item
-          Column = 2
-          Control = st24
-          Row = 6
-        end
-        item
-          Column = 3
-          Control = st25
-          Row = 6
-        end
-        item
-          Column = 4
-          Control = st26
-          Row = 6
-        end
-        item
-          Column = 5
-          Control = st27
-          Row = 6
-        end
-        item
-          Column = 6
-          Control = st28
-          Row = 6
-        end
-        item
-          Column = 0
-          Control = st29
-          Row = 8
-        end
-        item
-          Column = 1
-          Control = st30
-          Row = 8
-        end
-        item
-          Column = 2
-          Control = st31
-          Row = 8
-        end
-        item
-          Column = 3
-          Control = st32
-          Row = 8
-        end
-        item
-          Column = 4
-          Control = st33
-          Row = 8
-        end
-        item
-          Column = 5
-          Control = st34
-          Row = 8
-        end
-        item
-          Column = 6
-          Control = st35
-          Row = 8
-        end
-        item
-          Column = 0
-          Control = st36
-          Row = 10
-        end
-        item
-          Column = 1
-          Control = st37
-          Row = 10
-        end
-        item
-          Column = 2
-          Control = st38
-          Row = 10
-        end
-        item
-          Column = 3
-          Control = st39
-          Row = 10
-        end
-        item
-          Column = 4
-          Control = st40
-          Row = 10
-        end
-        item
-          Column = 5
-          Control = st41
-          Row = 10
-        end
-        item
-          Column = 6
-          Control = st42
-          Row = 10
-        end
         item
           Column = 0
           Control = LB1
@@ -655,6 +445,216 @@ object CalendarForm: TCalendarForm
           Column = 6
           Control = LB42
           Row = 11
+        end
+        item
+          Column = 0
+          Control = Label1
+          Row = 0
+        end
+        item
+          Column = 1
+          Control = Label2
+          Row = 0
+        end
+        item
+          Column = 2
+          Control = Label3
+          Row = 0
+        end
+        item
+          Column = 3
+          Control = Label4
+          Row = 0
+        end
+        item
+          Column = 4
+          Control = Label5
+          Row = 0
+        end
+        item
+          Column = 5
+          Control = Label6
+          Row = 0
+        end
+        item
+          Column = 6
+          Control = Label7
+          Row = 0
+        end
+        item
+          Column = 0
+          Control = Label8
+          Row = 2
+        end
+        item
+          Column = 1
+          Control = Label9
+          Row = 2
+        end
+        item
+          Column = 2
+          Control = Label10
+          Row = 2
+        end
+        item
+          Column = 3
+          Control = Label11
+          Row = 2
+        end
+        item
+          Column = 4
+          Control = Label12
+          Row = 2
+        end
+        item
+          Column = 5
+          Control = Label13
+          Row = 2
+        end
+        item
+          Column = 6
+          Control = Label14
+          Row = 2
+        end
+        item
+          Column = 0
+          Control = Label15
+          Row = 4
+        end
+        item
+          Column = 1
+          Control = Label16
+          Row = 4
+        end
+        item
+          Column = 2
+          Control = Label17
+          Row = 4
+        end
+        item
+          Column = 3
+          Control = Label18
+          Row = 4
+        end
+        item
+          Column = 4
+          Control = Label19
+          Row = 4
+        end
+        item
+          Column = 5
+          Control = Label20
+          Row = 4
+        end
+        item
+          Column = 6
+          Control = Label21
+          Row = 4
+        end
+        item
+          Column = 0
+          Control = Label22
+          Row = 6
+        end
+        item
+          Column = 1
+          Control = Label23
+          Row = 6
+        end
+        item
+          Column = 2
+          Control = Label24
+          Row = 6
+        end
+        item
+          Column = 3
+          Control = Label25
+          Row = 6
+        end
+        item
+          Column = 4
+          Control = Label26
+          Row = 6
+        end
+        item
+          Column = 5
+          Control = Label27
+          Row = 6
+        end
+        item
+          Column = 6
+          Control = Label28
+          Row = 6
+        end
+        item
+          Column = 0
+          Control = Label29
+          Row = 8
+        end
+        item
+          Column = 1
+          Control = Label30
+          Row = 8
+        end
+        item
+          Column = 2
+          Control = Label31
+          Row = 8
+        end
+        item
+          Column = 3
+          Control = Label32
+          Row = 8
+        end
+        item
+          Column = 4
+          Control = Label33
+          Row = 8
+        end
+        item
+          Column = 5
+          Control = Label34
+          Row = 8
+        end
+        item
+          Column = 6
+          Control = Label35
+          Row = 8
+        end
+        item
+          Column = 0
+          Control = Label36
+          Row = 10
+        end
+        item
+          Column = 1
+          Control = Label37
+          Row = 10
+        end
+        item
+          Column = 2
+          Control = Label38
+          Row = 10
+        end
+        item
+          Column = 3
+          Control = Label39
+          Row = 10
+        end
+        item
+          Column = 4
+          Control = Label40
+          Row = 10
+        end
+        item
+          Column = 5
+          Control = Label41
+          Row = 10
+        end
+        item
+          Column = 6
+          Control = Label42
+          Row = 10
         end>
       ParentBackground = False
       RowCollection = <
@@ -698,679 +698,6 @@ object CalendarForm: TCalendarForm
       DesignSize = (
         1250
         729)
-      object st1: TStaticText
-        Left = 50
-        Top = 1
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 0
-      end
-      object st2: TStaticText
-        Left = 230
-        Top = 1
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 1
-      end
-      object st3: TStaticText
-        Left = 409
-        Top = 1
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 2
-      end
-      object st4: TStaticText
-        Left = 588
-        Top = 1
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 3
-      end
-      object st5: TStaticText
-        Left = 765
-        Top = 1
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 4
-      end
-      object st6: TStaticText
-        Left = 942
-        Top = 1
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 5
-      end
-      object st7: TStaticText
-        Left = 1119
-        Top = 1
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 6
-      end
-      object st8: TStaticText
-        Left = 50
-        Top = 121
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 7
-      end
-      object st9: TStaticText
-        Left = 230
-        Top = 121
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 8
-      end
-      object st10: TStaticText
-        Left = 409
-        Top = 121
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 9
-      end
-      object st11: TStaticText
-        Left = 588
-        Top = 121
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 10
-      end
-      object st12: TStaticText
-        Left = 765
-        Top = 121
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 11
-      end
-      object st13: TStaticText
-        Left = 942
-        Top = 121
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 12
-      end
-      object st14: TStaticText
-        Left = 1119
-        Top = 121
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 13
-      end
-      object st15: TStaticText
-        Left = 50
-        Top = 241
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 14
-      end
-      object st16: TStaticText
-        Left = 230
-        Top = 241
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 15
-      end
-      object st17: TStaticText
-        Left = 409
-        Top = 241
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 16
-      end
-      object st18: TStaticText
-        Left = 588
-        Top = 241
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 17
-      end
-      object st19: TStaticText
-        Left = 765
-        Top = 241
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 18
-      end
-      object st20: TStaticText
-        Left = 942
-        Top = 241
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 19
-      end
-      object st21: TStaticText
-        Left = 1119
-        Top = 241
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 20
-      end
-      object st22: TStaticText
-        Left = 50
-        Top = 361
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 21
-      end
-      object st23: TStaticText
-        Left = 230
-        Top = 361
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 22
-      end
-      object st24: TStaticText
-        Left = 409
-        Top = 361
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 23
-      end
-      object st25: TStaticText
-        Left = 588
-        Top = 361
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 24
-      end
-      object st26: TStaticText
-        Left = 765
-        Top = 361
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 25
-      end
-      object st27: TStaticText
-        Left = 942
-        Top = 361
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 26
-      end
-      object st28: TStaticText
-        Left = 1119
-        Top = 361
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 27
-      end
-      object st29: TStaticText
-        Left = 50
-        Top = 481
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 28
-      end
-      object st30: TStaticText
-        Left = 230
-        Top = 481
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 29
-      end
-      object st31: TStaticText
-        Left = 409
-        Top = 481
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 30
-      end
-      object st32: TStaticText
-        Left = 588
-        Top = 481
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 31
-      end
-      object st33: TStaticText
-        Left = 765
-        Top = 481
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 32
-      end
-      object st34: TStaticText
-        Left = 942
-        Top = 481
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 33
-      end
-      object st35: TStaticText
-        Left = 1119
-        Top = 481
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 34
-      end
-      object st36: TStaticText
-        Left = 50
-        Top = 601
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 35
-      end
-      object st37: TStaticText
-        Left = 219
-        Top = 603
-        Width = 104
-        Height = 17
-        Anchors = []
-        AutoSize = False
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 36
-      end
-      object st38: TStaticText
-        Left = 409
-        Top = 601
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 37
-      end
-      object st39: TStaticText
-        Left = 588
-        Top = 601
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 38
-      end
-      object st40: TStaticText
-        Left = 765
-        Top = 601
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 39
-      end
-      object st41: TStaticText
-        Left = 942
-        Top = 601
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 40
-      end
-      object st42: TStaticText
-        Left = 1119
-        Top = 601
-        Width = 82
-        Height = 21
-        Anchors = []
-        BevelOuter = bvNone
-        Caption = 'StaticText1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -16
-        Font.Name = 'Tahoma'
-        Font.Style = []
-        ParentFont = False
-        TabOrder = 41
-      end
       object LB1: TListBox
         Left = 1
         Top = 22
@@ -1378,7 +705,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 42
+        TabOrder = 0
       end
       object LB2: TListBox
         Left = 181
@@ -1387,7 +714,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 43
+        TabOrder = 1
       end
       object LB3: TListBox
         Left = 361
@@ -1396,7 +723,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 44
+        TabOrder = 2
       end
       object LB4: TListBox
         Left = 540
@@ -1405,7 +732,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 45
+        TabOrder = 3
       end
       object LB5: TListBox
         Left = 718
@@ -1414,7 +741,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 46
+        TabOrder = 4
       end
       object LB6: TListBox
         Left = 895
@@ -1423,7 +750,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 47
+        TabOrder = 5
       end
       object LB7: TListBox
         Left = 1071
@@ -1432,7 +759,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 48
+        TabOrder = 6
       end
       object LB8: TListBox
         Left = 1
@@ -1441,7 +768,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 49
+        TabOrder = 7
       end
       object LB9: TListBox
         Left = 181
@@ -1450,7 +777,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 50
+        TabOrder = 8
       end
       object LB10: TListBox
         Left = 361
@@ -1459,7 +786,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 51
+        TabOrder = 9
       end
       object LB11: TListBox
         Left = 540
@@ -1468,7 +795,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 52
+        TabOrder = 10
       end
       object LB12: TListBox
         Left = 718
@@ -1477,7 +804,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 53
+        TabOrder = 11
       end
       object LB13: TListBox
         Left = 895
@@ -1486,7 +813,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 54
+        TabOrder = 12
       end
       object LB14: TListBox
         Left = 1071
@@ -1495,7 +822,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 55
+        TabOrder = 13
       end
       object LB15: TListBox
         Left = 1
@@ -1504,7 +831,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 56
+        TabOrder = 14
       end
       object LB16: TListBox
         Left = 181
@@ -1513,7 +840,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 57
+        TabOrder = 15
       end
       object LB17: TListBox
         Left = 361
@@ -1522,7 +849,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 58
+        TabOrder = 16
       end
       object LB18: TListBox
         Left = 540
@@ -1531,7 +858,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 59
+        TabOrder = 17
       end
       object LB19: TListBox
         Left = 718
@@ -1540,7 +867,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 60
+        TabOrder = 18
       end
       object LB20: TListBox
         Left = 895
@@ -1549,7 +876,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 61
+        TabOrder = 19
       end
       object LB21: TListBox
         Left = 1071
@@ -1558,7 +885,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 62
+        TabOrder = 20
       end
       object LB22: TListBox
         Left = 1
@@ -1567,7 +894,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 63
+        TabOrder = 21
       end
       object LB23: TListBox
         Left = 181
@@ -1576,7 +903,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 64
+        TabOrder = 22
       end
       object LB24: TListBox
         Left = 361
@@ -1585,7 +912,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 65
+        TabOrder = 23
       end
       object LB25: TListBox
         Left = 540
@@ -1594,7 +921,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 66
+        TabOrder = 24
       end
       object LB26: TListBox
         Left = 718
@@ -1603,7 +930,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 67
+        TabOrder = 25
       end
       object LB27: TListBox
         Left = 895
@@ -1612,7 +939,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 68
+        TabOrder = 26
       end
       object LB28: TListBox
         Left = 1071
@@ -1621,7 +948,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 69
+        TabOrder = 27
       end
       object LB29: TListBox
         Left = 1
@@ -1630,7 +957,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 70
+        TabOrder = 28
       end
       object LB30: TListBox
         Left = 181
@@ -1639,7 +966,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 71
+        TabOrder = 29
       end
       object LB31: TListBox
         Left = 361
@@ -1648,7 +975,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 72
+        TabOrder = 30
       end
       object LB32: TListBox
         Left = 540
@@ -1657,7 +984,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 73
+        TabOrder = 31
       end
       object LB33: TListBox
         Left = 718
@@ -1666,7 +993,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 74
+        TabOrder = 32
       end
       object LB34: TListBox
         Left = 895
@@ -1675,7 +1002,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 75
+        TabOrder = 33
       end
       object LB35: TListBox
         Left = 1071
@@ -1684,7 +1011,7 @@ object CalendarForm: TCalendarForm
         Height = 99
         Anchors = []
         ItemHeight = 13
-        TabOrder = 76
+        TabOrder = 34
       end
       object LB36: TListBox
         Left = 1
@@ -1693,7 +1020,7 @@ object CalendarForm: TCalendarForm
         Height = 106
         Anchors = []
         ItemHeight = 13
-        TabOrder = 77
+        TabOrder = 35
       end
       object LB37: TListBox
         Left = 181
@@ -1702,7 +1029,7 @@ object CalendarForm: TCalendarForm
         Height = 106
         Anchors = []
         ItemHeight = 13
-        TabOrder = 78
+        TabOrder = 36
       end
       object LB38: TListBox
         Left = 361
@@ -1711,7 +1038,7 @@ object CalendarForm: TCalendarForm
         Height = 106
         Anchors = []
         ItemHeight = 13
-        TabOrder = 79
+        TabOrder = 37
       end
       object LB39: TListBox
         Left = 540
@@ -1720,7 +1047,7 @@ object CalendarForm: TCalendarForm
         Height = 106
         Anchors = []
         ItemHeight = 13
-        TabOrder = 80
+        TabOrder = 38
       end
       object LB40: TListBox
         Left = 718
@@ -1729,7 +1056,7 @@ object CalendarForm: TCalendarForm
         Height = 106
         Anchors = []
         ItemHeight = 13
-        TabOrder = 81
+        TabOrder = 39
       end
       object LB41: TListBox
         Left = 895
@@ -1738,7 +1065,7 @@ object CalendarForm: TCalendarForm
         Height = 106
         Anchors = []
         ItemHeight = 13
-        TabOrder = 82
+        TabOrder = 40
       end
       object LB42: TListBox
         Left = 1071
@@ -1747,7 +1074,646 @@ object CalendarForm: TCalendarForm
         Height = 106
         Anchors = []
         ItemHeight = 13
-        TabOrder = 83
+        TabOrder = 41
+      end
+      object Label1: TLabel
+        Left = 68
+        Top = 2
+        Width = 46
+        Height = 19
+        Anchors = []
+        Caption = 'Label1'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 75
+        ExplicitTop = 5
+      end
+      object Label2: TLabel
+        Left = 248
+        Top = 2
+        Width = 46
+        Height = 19
+        Anchors = []
+        Caption = 'Label2'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 255
+        ExplicitTop = 5
+      end
+      object Label3: TLabel
+        Left = 427
+        Top = 2
+        Width = 46
+        Height = 19
+        Anchors = []
+        Caption = 'Label3'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 435
+        ExplicitTop = 5
+      end
+      object Label4: TLabel
+        Left = 606
+        Top = 2
+        Width = 46
+        Height = 19
+        Anchors = []
+        Caption = 'Label4'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 613
+        ExplicitTop = 5
+      end
+      object Label5: TLabel
+        Left = 783
+        Top = 2
+        Width = 46
+        Height = 19
+        Anchors = []
+        Caption = 'Label5'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 791
+        ExplicitTop = 5
+      end
+      object Label6: TLabel
+        Left = 960
+        Top = 2
+        Width = 46
+        Height = 19
+        Anchors = []
+        Caption = 'Label6'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 967
+        ExplicitTop = 5
+      end
+      object Label7: TLabel
+        Left = 1137
+        Top = 2
+        Width = 46
+        Height = 19
+        Anchors = []
+        Caption = 'Label7'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 1144
+        ExplicitTop = 5
+      end
+      object Label8: TLabel
+        Left = 68
+        Top = 122
+        Width = 46
+        Height = 19
+        Anchors = []
+        Caption = 'Label8'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 75
+        ExplicitTop = 125
+      end
+      object Label9: TLabel
+        Left = 248
+        Top = 122
+        Width = 46
+        Height = 19
+        Anchors = []
+        Caption = 'Label9'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 255
+        ExplicitTop = 125
+      end
+      object Label10: TLabel
+        Left = 423
+        Top = 122
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label10'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 427
+      end
+      object Label11: TLabel
+        Left = 601
+        Top = 122
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label11'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 606
+      end
+      object Label12: TLabel
+        Left = 779
+        Top = 122
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label12'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 783
+      end
+      object Label13: TLabel
+        Left = 955
+        Top = 122
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label13'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 960
+      end
+      object Label14: TLabel
+        Left = 1132
+        Top = 122
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label14'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 1137
+      end
+      object Label15: TLabel
+        Left = 63
+        Top = 242
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label15'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 68
+      end
+      object Label16: TLabel
+        Left = 243
+        Top = 242
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label16'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 248
+      end
+      object Label17: TLabel
+        Left = 423
+        Top = 242
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label17'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 427
+      end
+      object Label18: TLabel
+        Left = 601
+        Top = 242
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label18'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 606
+      end
+      object Label19: TLabel
+        Left = 779
+        Top = 242
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label19'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 783
+      end
+      object Label20: TLabel
+        Left = 955
+        Top = 242
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label20'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 960
+      end
+      object Label21: TLabel
+        Left = 1132
+        Top = 242
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label21'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 1137
+      end
+      object Label22: TLabel
+        Left = 63
+        Top = 362
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label22'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 68
+      end
+      object Label23: TLabel
+        Left = 243
+        Top = 362
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label23'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 248
+      end
+      object Label24: TLabel
+        Left = 423
+        Top = 362
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label24'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 427
+      end
+      object Label25: TLabel
+        Left = 601
+        Top = 362
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label25'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 606
+      end
+      object Label26: TLabel
+        Left = 779
+        Top = 362
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label26'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 783
+      end
+      object Label27: TLabel
+        Left = 955
+        Top = 362
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label27'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 960
+      end
+      object Label28: TLabel
+        Left = 1132
+        Top = 362
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label28'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 1137
+      end
+      object Label29: TLabel
+        Left = 63
+        Top = 482
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label29'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 68
+      end
+      object Label30: TLabel
+        Left = 243
+        Top = 482
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label30'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 248
+      end
+      object Label31: TLabel
+        Left = 423
+        Top = 482
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label31'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 427
+      end
+      object Label32: TLabel
+        Left = 601
+        Top = 482
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label32'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 606
+      end
+      object Label33: TLabel
+        Left = 779
+        Top = 482
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label33'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 783
+      end
+      object Label34: TLabel
+        Left = 955
+        Top = 482
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label34'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 960
+      end
+      object Label35: TLabel
+        Left = 1132
+        Top = 482
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label35'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 1137
+      end
+      object Label36: TLabel
+        Left = 63
+        Top = 602
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label36'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 68
+      end
+      object Label37: TLabel
+        Left = 243
+        Top = 602
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label37'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 248
+      end
+      object Label38: TLabel
+        Left = 423
+        Top = 602
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label38'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 427
+      end
+      object Label39: TLabel
+        Left = 601
+        Top = 602
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label39'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 606
+      end
+      object Label40: TLabel
+        Left = 779
+        Top = 602
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label40'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 783
+      end
+      object Label41: TLabel
+        Left = 955
+        Top = 602
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label41'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 960
+      end
+      object Label42: TLabel
+        Left = 1132
+        Top = 602
+        Width = 55
+        Height = 19
+        Anchors = []
+        Caption = 'Label42'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 1137
       end
     end
   end
